@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FrameworksResMars",
+    name: "FrameworksResVenus",
     product_specific: true,
 }

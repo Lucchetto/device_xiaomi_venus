@@ -29,10 +29,10 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-pe
 
 PRODUCT_PACKAGES += \
-    FrameworksResMars \
-    SettingsProviderOverlayMars \
-    SettingsResMars \
-    SystemUIResMars
+    FrameworksResVenus \
+    SettingsProviderOverlayVenus \
+    SettingsResVenus \
+    SystemUIResVenus
 
 # PowerShare
 PRODUCT_PACKAGES += \
@@ -51,4 +51,4 @@ PRODUCT_COPY_FILES += \
 
 
 # Call the proprietary setup
-$(call inherit-product-if-exists, vendor/xiaomi/mars/mars-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/venus/venus-vendor.mk)

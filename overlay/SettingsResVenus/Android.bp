@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsResMars",
+    name: "SettingsResVenus",
     product_specific: true,
 }
